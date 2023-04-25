@@ -54,7 +54,11 @@ p {
     margin: 0;
 }
 
-img {}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 
 .link {
     text-decoration: none;
@@ -459,17 +463,25 @@ button {
 .card-set {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    row-gap: 48px;
+    column-gap: 24px;
 }
 
 .card-set-item {
-    flex-basis: calc((100%-24px*2)/3);
+    border: 1px solid tomato;
+    width: calc((100%-48)/3);
 }
 
-.img-list {
-    display: block;
-    max-width: 100%;
-    height: auto;
+.card-set-item:nth-child(3n) {
+    margin-right: 0;
+}
+
+.img-list {}
+
+.portfolio-card-container {
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
 }
 
 .portfolio-img {}
