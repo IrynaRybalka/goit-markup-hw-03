@@ -127,7 +127,7 @@ button {
 
 
 .header-nav-list .item {
-    background-color: tomato;
+
     margin-right: 40px;
 }
 
@@ -167,7 +167,7 @@ button {
 
 .header-address-list {
     display: flex;
-    background-color: tomato;
+
 
 }
 
@@ -210,8 +210,7 @@ button {
     padding: 0 15px;
 
 
-    outline: 2px solid red;
-    outline-offset: -2px;
+
 
 }
 
